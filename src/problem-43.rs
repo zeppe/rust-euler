@@ -6,6 +6,8 @@ struct Level {
 }
 
 impl Level {
+    // this fills the possible solutions checking iteratively whether they are feasible
+    // basically, some dynamic programming
     pub fn fill(&mut self) {
         let mul = match self.l {
             0..3 => None,
