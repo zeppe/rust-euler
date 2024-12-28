@@ -1,0 +1,11 @@
+[package]
+name = "euler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[[bin]]
+name = "problem-43"
+path = "src/problem-43.rs"
